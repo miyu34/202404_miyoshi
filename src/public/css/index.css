@@ -1,14 +1,15 @@
-.header__inner {
-    margin: 0 auto;
-    padding: 20px 15px;
-    max-width: 1230px;
+header{
+    text-decoration: underline;
 }
 
 .header__logo {
     color: rgb(175, 104, 104);
-    text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+}
+
+h2{
+    color: rgb(175, 104, 104);
 }
 
 .contact-form__content {
@@ -42,6 +43,10 @@
     color: #e82323;
 }
 
+.form__label--item{
+    color: rgb(175, 104, 104);
+}
+
 .form__error {
     height: 20px;
     color: #ff0000;
@@ -49,13 +54,22 @@
 }
 
 .form__input--text input,
-.form__input--textarea textarea {
+.form__input--textarea textarea,
+select {
     padding: 10px;
-    width: 600px;
+    width: 400px;
     border: 1px solid #ddd;
     border-radius: 3px;
-
     appearance: none;
+    background-color: rgb(246, 242, 242);
+}
+
+input{
+    display: flex;
+}
+
+select{
+    color: rgba(45, 45, 45, 0.571);
 }
 
 .form__input--text input {
@@ -76,7 +90,7 @@
     height: 50px;
     border: none;
     border-radius: 3px;
-    background: brown;
+    background: rgb(175, 104, 104);
     color: #fff;
     cursor: pointer;
 }
