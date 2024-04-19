@@ -107,10 +107,10 @@
            </div>
            <div class="form__group-content">
              <div class="form__input--text">
-               <input type="text" name="address" placeholder="例 千駄ヶ谷マンション101" value="{{ old('address') }}" />
+               <input type="text" name="building_name" placeholder="例 千駄ヶ谷マンション101" value="{{ old('building_name') }}" />
              </div>
              <div class="form__error">
-              @error('address')
+              @error('building_name')
               {{ $message }}
               @enderror
              </div>

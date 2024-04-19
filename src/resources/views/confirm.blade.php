@@ -70,7 +70,7 @@
             <tr class="confirm-table__row">
               <th class="confirm-table__header">建物名</th>
               <td class="confirm-table__text">
-                <input type="text" name="building_name" value="{{ $contact['building_name'] }}" readonly />
+              <input type="text" name="building_name" value="{{ $contact['building_name'] }}" readonly />
               </td>
             </tr>
 
