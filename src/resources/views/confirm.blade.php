@@ -32,7 +32,9 @@
             <tr class="confirm-table__row">
               <th class="confirm-table__header">お名前</th>
               <td class="confirm-table__text">
-              <input type="text" name="name" value="{{ $contact['name'] }}" readonly />              </td>
+              <input  type="text" name="family_name" value="{{ $contact['family_name'] }}" readonly />
+              <input  type="text" name="given_name" value="{{ $contact['given_name'] }}" readonly />
+            </td>
             </tr>
             <tr class="confirm-table__row">
               <th class="confirm-table__header">性別</th>
@@ -74,6 +76,12 @@
               </td>
             </tr>
 
+            <tr class="confirm-table__row">
+              <th class="confirm-table__header">お問い合わせの種類</th>
+              <td class="confirm-table__text">
+              <input type="text" name="content" value="{{ $contact['content'] }}" readonly />
+            </td>
+            </tr>
 
             <tr class="confirm-table__row">
               <th class="confirm-table__header">お問い合わせ内容</th>
