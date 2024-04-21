@@ -12,17 +12,17 @@
 http://localhost/
 
 # 環境構築
-Duckerビルド
-1.git clone https://github.com/miyu34/202404_miyoshi.git
-2.Ducker compose up -d -build
+Duckerビルド  
+1.git clone https://github.com/miyu34/202404_miyoshi.git  
+2.Ducker compose up -d -build  
 
-Laravel環境構築
-1.Ducker compose exec php bash
-2.composer install
-3..env.exampleファイルから.envを作成し、環境変数を変更
-4.php artisan key:generate
-5.php artisan migrate
-6.php artisan db:seed
+Laravel環境構築  
+1.Ducker compose exec php bash  
+2.composer install  
+3..env.exampleファイルから.envを作成し、環境変数を変更  
+4.php artisan key:generate  
+5.php artisan migrate  
+6.php artisan db:seed  
  
 # 機能一覧
 お問い合わせ内容登録 / 問い合わせ内容確認 / 探索機能/ユーザー登録/ログイン/ユーザー管理(探索機能〜今回未作成。)
