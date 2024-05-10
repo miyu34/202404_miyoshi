@@ -4,10 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ContactController extends Controller
+class RegisterController extends Controller
 {
-  public function index()
+  public function register()
   {
-    return view('index');
+    return view('register');
+  }
+
+    public function login()
+  {
+    return view('login');
   }
 }

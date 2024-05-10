@@ -1,0 +1,95 @@
+header {
+    background: white;
+    display: block;
+}
+
+.logo {
+    font-size: 24px;
+    color: rgb(149, 125, 125);
+    font-weight: 1000;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.login_btn {
+    margin-left: auto;
+    width: 80px;
+    height: 30px;
+    padding: 3px 0;
+    color: rgb(172, 128, 128);
+    border-color: rgb(172, 128, 128);
+    background-color: rgb(219, 214, 214);
+    display: block;
+    text-align: center;
+    margin-right: 100px auto 0;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(219, 214, 214);
+}
+
+h1 {
+    color: rgb(149, 125, 125);
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    border: 2px solid #aaa;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box_top {
+    position: absolute;
+    top: 49px;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(175, 104, 104);
+    color: white;
+}
+
+.thx_txt {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+
+form {
+    display: block;
+    line-height: 5px;
+}
+
+p {
+    color: rgb(149, 125, 125);
+}
+
+input {
+    padding: 0px 50px;
+    height: 45px;
+    text-align: left;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+.register_btn {
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(134, 119, 67);
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}

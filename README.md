@@ -1,6 +1,7 @@
 # アプリケーション名
 お問い合わせフォーム
-ログイン画面(今回、未作成)
+ログイン画面
+登録画面
 ![image](https://github.com/miyu34/202404_miyoshi/assets/125182885/2799828b-0560-4c4d-8ce6-99bed582134a)
 
 
@@ -10,6 +11,8 @@
  
 # アプリケーションURL
 http://localhost/
+http://localhost/register
+http://localhost/login
 
 # 環境構築
 Duckerビルド  
@@ -25,7 +28,7 @@ Laravel環境構築
 6.php artisan db:seed  
  
 # 機能一覧
-お問い合わせ内容登録 / 問い合わせ内容確認 / 探索機能/ユーザー登録/ログイン/ユーザー管理(探索機能〜今回未作成。)
+お問い合わせ内容登録 / 問い合わせ内容確認 / 探索機能/ユーザー登録/ログイン/ユーザー管理(探索機能・ユーザー管理 今回未作成。)
  
 # 使用技術
 Laravel Framework 8.83.27 / Git Hub / HTML / css

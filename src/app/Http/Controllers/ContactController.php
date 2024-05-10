@@ -18,6 +18,7 @@ class ContactController extends Controller
     return view('confirm', compact('contact'));
     return view('thanks');
   }
+  
    public function store()
       {
         $contact = $request->only(['family_name', 'given_name', 'email', 'tel', 'address', 'building_name', 'content']);
